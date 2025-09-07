@@ -62,3 +62,4 @@ export const deleteUser = async (req, res) => {
     logger.error(`Erro na rota DELETE /users/:id Erro: ${err}`);
   }
 };
+ 
